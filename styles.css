@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "BeispielFont";
+    src: url("BeispielFont.woff2") format("woff2"),
+         url("BeispielFont.woff") format("woff");
+}
+
+body {
+    font-family: "BeispielFont", Fallback, sans-serif;
+}
